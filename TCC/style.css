@@ -4,9 +4,7 @@
 }
 
 body {
-  background: url("5.jpg") no-repeat center center ;
-  background-size: cover;
-  height: 3000px;
+background: linear-gradient(45deg, #000000, #282A3A, #735F32, #C69749);
 }
 
 a {
@@ -218,7 +216,7 @@ margin-left: -80%;
 }
 
 .color-span {
-  color: rgb(255, 72, 0);
+  color: rgb(255, 208, 0);
 }
 
 .container {
@@ -243,6 +241,7 @@ margin-left: -80%;
   overflow: hidden;
   background-image: linear-gradient(#333, #333);
   transition: all .5s;
+  margin: 10px;
 }
 
 .card:hover {
