@@ -4,7 +4,7 @@
 }
 
 body {
-background: linear-gradient(45deg, #000000, #282A3A, #735F32, #C69749);
+background: linear-gradient(45deg,  #393E46, #00ADB5, #EEEEEE);
 }
 
 a {
@@ -21,6 +21,7 @@ a:hover {
   font-size: 24px;
   text-transform: uppercase;
   letter-spacing: 4px;
+  padding: 25%;
 }
 
 nav {
@@ -211,7 +212,7 @@ margin-left: -80%;
 }
 
 .color-span {
-  color: rgb(255, 208, 0);
+  color: rgb(255, 115, 0);
 }
 
 .container {
@@ -237,6 +238,7 @@ margin-left: -80%;
   background-image: linear-gradient(#333, #333);
   transition: all .5s;
   margin: 10px;
+  
 }
 
 .card:hover {
@@ -249,7 +251,7 @@ margin-left: -80%;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-image: url('escritorio.png');
+  background-image: url('escritorio.jpg');
   background-size: cover;
   background-position: center;
   transition: all .5s;
@@ -258,13 +260,14 @@ margin-left: -80%;
   opacity: .8;
 }
 
+
 .card .img-dois {
   width: 360px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-image: url('SISPN.jpg');
+  background-image: url('software.jpg');
   background-size: cover;
   background-position: center;
   transition: all .5s;
@@ -279,7 +282,7 @@ margin-left: -80%;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-image: url('SISPN.jpg');
+  background-image: url('softnuvem.jpg');
   background-size: cover;
   background-position: center;
   transition: all .5s;
@@ -367,5 +370,13 @@ margin-left: -80%;
 .software {
   color: rgb(255, 208, 0);
   padding: auto;
+}
+
+.area-h1 {
+  text-align: center;
+}
+
+.fb {
+  text-align: center;
 }
 
