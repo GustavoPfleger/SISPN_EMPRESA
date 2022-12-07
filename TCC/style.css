@@ -4,7 +4,7 @@
 }
 
 body {
-background: #be6817;
+background: #82b3eb;
 }
 
 a {
@@ -250,7 +250,7 @@ margin-left: -80%;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-image: url('escritorio.jpg');
+  background-image: url('');
   background-size: cover;
   background-position: center;
   transition: all .5s;
@@ -266,7 +266,7 @@ margin-left: -80%;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-image: url('software.jpg');
+  background-image: url('facilitysoft.png');
   background-size: cover;
   background-position: center;
   transition: all .5s;
@@ -281,7 +281,7 @@ margin-left: -80%;
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-image: url('softnuvem.jpg');
+  background-image: url('parceria.png');
   background-size: cover;
   background-position: center;
   transition: all .5s;
@@ -296,6 +296,10 @@ margin-left: -80%;
   font-weight: 100;
   font-style: italic;
   transition: all .5s;
+}
+
+.mid {
+  color: rgb(236, 142, 0);
 }
 
 .card:hover .img {
@@ -505,4 +509,91 @@ margin-left: -80%;
   .slide-control-button {
       font-size: 14px;
   }
+}
+
+footer {
+  margin-top: 10px;
+  width: 100%;
+  min-height: 300px;
+  background: #444;
+  display: flex;
+}
+
+
+footer .boxs {
+  width: 320px;
+  min-height: 150px;
+  padding: 20px;
+}
+
+footer .boxs:nth-child(4) {
+  width: 400px;
+}
+
+.boxs h2 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.boxs ul li {
+  margin: 10px 0;
+  list-style: none;
+}
+
+.boxs ul li a{
+  color: #ddd;
+  text-decoration: none;
+}
+
+.boxs ul li a:hover {
+  color: #fff;
+}
+
+.boxs p {
+  color: #fff;
+  align-items: justify;
+}
+
+.footer {
+  width: 97.2%;
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0px 20px;
+  align-items: center;
+  background: #333;
+}
+
+.footer h2 {
+color: #fff;
+}
+
+.footer .sociais {
+display: flex;
+}
+
+.sociais .social {
+width: 40px;
+height: 40px;
+text-align: center;
+background: #ddd;
+line-height: 40px;
+margin: 10px;
+border-radius: 5px;
+cursor: pointer;
+transition: background .3s linear;
+}
+
+.sociais .social a {
+color: #000;
+font-size: 1.5em;
+transition: color .3s linear;
+}
+
+.sociais .social:hover {
+background: #444;
+}
+
+.sociais .social:hover a {
+color: #fff;
 }
